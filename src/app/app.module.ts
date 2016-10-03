@@ -3,16 +3,22 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { Lazy1RoutingModule } from './app-routing.module'
+import { Lazy1Module } from './lazy1/lazy1.module'
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Lazy1RoutingModule,
+    Lazy1Module
   ],
   providers: [],
   bootstrap: [AppComponent]
