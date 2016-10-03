@@ -17,8 +17,7 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    Lazy1RoutingModule,
-    Lazy1Module
+    Lazy1RoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
